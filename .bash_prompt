@@ -43,7 +43,7 @@ function set_git_branch() {
   # if not git then maybe mercurial
   if [ "$branch" == "" ]
   then
-    branch=$(parse_hg_branch)
+    branch=""
   fi
 
   # Set the final branch string.
