@@ -15,4 +15,9 @@ git config --global credential.helper 'cache --timeout=36000'
 }
 
 
-setup_git()
+setup_git
+echo "git configuration successfully set"
+sleep 2
+clear
+echo "Configuration file looks like this"
+git config -l
