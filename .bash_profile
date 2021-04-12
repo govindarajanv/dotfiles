@@ -29,7 +29,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.10.0.9-0.el7_9.x86_64
 # Load our dotfiles like ~/.bash_prompt, etc…
 #   ~/.extra can be used for settings you don’t want to commit,
    
-for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
+for file in ~/.{extra,bash_prompt,exports,aliases,functions,bash_completion}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
