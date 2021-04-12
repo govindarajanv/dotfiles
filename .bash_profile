@@ -8,6 +8,12 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # ------------------------------------------------------------
+# Setup pre-requisite directories and files
+# ------------------------------------------------------------
+mkdir -i ~/.vim/swaps
+mkdir -p ~/.vim/undo
+
+# ------------------------------------------------------------
 # User specific environment and startup programs
 # ------------------------------------------------------------
 
@@ -19,10 +25,6 @@ export PATH
 # ------------------------------------------------------------
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.10.0.9-0.el7_9.x86_64
 
-# ------------------------------------------------------------
-# Set default editor
-# ------------------------------------------------------------
-EDITOR=vim
 
 # Load our dotfiles like ~/.bash_prompt, etc…
 #   ~/.extra can be used for settings you don’t want to commit,
