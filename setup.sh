@@ -10,7 +10,7 @@ read email
 git config --global user.name $name
 git config --global user.email $email
 git config --global init.defaultBranch main
-git config --global credential.helper 'cache --timeout=3600'
+git config --global credential.helper 'cache --timeout=36000'
 
 }
 
