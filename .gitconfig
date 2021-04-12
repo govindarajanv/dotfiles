@@ -1,1 +1,5 @@
-# placeholder
+user]                                                                                                                                                                       
+  email = EMAIL
+  name = NAME
+[credential]
+  helper = cache --timeout=3600
