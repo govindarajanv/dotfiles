@@ -33,4 +33,5 @@ if filereadable(expand("~/.vimrc.bundles"))
 endif
 set ruler                      " Enable ruler
 set laststatus=2               " Enable status
-set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c        " Customize the status line
+" set statusline=\ %t%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c        " Customize the status line
+set statusline=\ %F%m%r%h\ %w\ \ \ \ \ Line:\ %l\ \ Column:\ %c        " Customize the status line  
