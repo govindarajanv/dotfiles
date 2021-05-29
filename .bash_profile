@@ -33,3 +33,5 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions,bash_completion}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
+
+# rclone sync ~/Library/Mobile\ Documents/com~apple~CloudDocs/ /Volumes/Backup\ Plus/Toolkit/
